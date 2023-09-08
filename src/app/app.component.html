@@ -1,0 +1,43 @@
+<ion-app>
+    <ion-menu contentId="main-content">
+      <ion-header>
+        <ion-toolbar color="tertiary">
+          <ion-icon name="person" slot=""></ion-icon>
+          <ion-label> {{ nombreUsuario }}</ion-label>
+        </ion-toolbar>
+      </ion-header>
+      <ion-content class="ion-padding">
+        <ion-list class="lista">
+          <ion-item>
+            <a href="">Actividad</a>
+          </ion-item>
+          <ion-item>
+            <a href="">Metodos de pago</a>
+          </ion-item>
+          <ion-item>
+            <a href="">Mi cuenta</a>
+          </ion-item>
+          <ion-item>
+            <a href="">Ayuda</a>
+          </ion-item>
+          <ion-item>
+            <a href="">Cambiar cuenta Ride</a>
+          </ion-item>
+        </ion-list>
+        
+        
+        
+      </ion-content>
+    </ion-menu>
+    <div class="ion-page" id="main-content">
+      <ion-header>
+        <ion-toolbar>
+          <ion-buttons slot="start">
+            <ion-menu-button></ion-menu-button>
+          </ion-buttons>
+          <ion-title>Menu</ion-title>
+        </ion-toolbar>
+      </ion-header>
+    </div>
+  <ion-router-outlet></ion-router-outlet>
+</ion-app>

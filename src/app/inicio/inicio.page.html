@@ -1,0 +1,23 @@
+<!-- <ion-header [translucent]="true">
+  <ion-toolbar color="inicioColor">
+    <ion-title>inicio</ion-title>
+  </ion-toolbar>
+</ion-header> -->
+
+<ion-content [fullscreen]="true" class="base" color="inicioColor">
+  <div class="logo">
+    <img src="../../assets/inicio-img/logo.png" alt="">
+  </div>
+  <div class="banner">
+    <img src="../../assets/inicio-img/banner.jpg" alt="">
+  </div>
+  
+  <ion-card>
+    <ion-card-header>
+      <ion-button class="LoginGoogle"  [routerLink]="['/login']">Continuar con Google</ion-button>
+      <ion-button class="LoginNumero">Entrar con número de celular</ion-button>
+      <ion-button class="LoginVivo" [routerLink]="['/principal']">Entrar con mi cuenta VivoDuoc</ion-button>
+    </ion-card-header>
+  
+  </ion-card>
+</ion-content>

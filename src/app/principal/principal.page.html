@@ -1,0 +1,17 @@
+
+<ion-header [translucent]="true">
+  <ion-toolbar color="primary">
+    <ion-title>Bienvenido/a, {{ nombreUsuario }}</ion-title>
+  </ion-toolbar>
+</ion-header>
+<ion-content>
+  <capacitor-google-map #map></capacitor-google-map>
+
+  <div class="opciones">
+    <br><br>
+    <ion-label>¿ Que desea hacer? </ion-label>
+    <br><br><br>
+    <ion-button color="tertiary" ><ion-icon name="car" slot="start"></ion-icon> Viajar</ion-button>
+    <ion-button color="tertiary" ><ion-icon name="calendar" slot="end"></ion-icon> Reservar</ion-button>
+  </div>
+</ion-content>
