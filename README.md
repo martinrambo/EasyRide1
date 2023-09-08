@@ -1,3 +1,3 @@
-# EasyRide1
+# Instruccion de isntalacion
 
-Martin tenia un Violin
+Dentro de la carpeta en cmd ingresar: npm install y queda listo para hacer ionic serve
